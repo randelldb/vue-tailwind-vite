@@ -42,10 +42,22 @@ import HelloWorld from './components/HelloWorld.vue'
       </div>
       
       <main class="flex flex-row flex-wrap flex-auto gap-5 justify-center m-10 "> <!-- maincontent -->
-        <div class="bg-gray-800 w-1/3 h-80 drop-shadow-xl rounded-lg">1a</div>
-        <div class="bg-gray-800 w-1/3 h-80 drop-shadow-xl rounded-lg">1b</div>
-        <div class="bg-gray-800 w-1/3 h-80 drop-shadow-xl rounded-lg">1c</div>
-        <div class="bg-gray-800 w-1/3 h-80 drop-shadow-xl rounded-lg">1d</div>
+
+        <div class="bg-gradient-to-br from-gray-900 to-teal-700 rounded-lg w-1/3 h-80 drop-shadow-xl p-0.5">
+          <div class="bg-gray-800 rounded-lg w-full h-full">1a</div>
+        </div>
+
+        <div class="bg-gradient-to-br from-gray-900 to-teal-700 rounded-lg w-1/3 h-80 drop-shadow-xl p-0.5">
+          <div class="bg-gray-800 rounded-lg w-full h-full">1a</div>
+        </div>
+
+        <div class="bg-gradient-to-br from-gray-900 to-teal-700 rounded-lg w-1/3 h-80 drop-shadow-xl p-0.5">
+          <div class="bg-gray-800 rounded-lg w-full h-full">1a</div>
+        </div>
+
+        <div class="bg-gradient-to-br from-gray-900 to-teal-700 rounded-lg w-1/3 h-80 drop-shadow-xl p-0.5">
+          <div class="bg-gray-800 rounded-lg w-full h-full">1a</div>
+        </div>
       </main>
 
     </div>

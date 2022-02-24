@@ -18,10 +18,13 @@ import HelloWorld from './components/HelloWorld.vue'
 
         <img src="grab-logo.png" alt="logo" class="object-cover h-3/4 self-center">
 
-        <nav class="bg-green-200">
-          <ul class="flex flex-row">
+        <nav class=" bg-slate-300 self-center">
+          <ul class="bg-yellow-200 flex flex-row">
             <li class="p-2">Home</li>
             <li class="p-2">About</li>
+            <li class="p-2">About</li>
+            <li class="p-2">Products</li>
+            <li class="p-2">Career</li>
             <li class="p-2">Contact</li>
           </ul>
         </nav>
@@ -29,13 +32,13 @@ import HelloWorld from './components/HelloWorld.vue'
 
     </header>
 
-    <div class="flex flex-row">
+    <div class="flex flex-row flex-auto">
 
-      <div class="flex flex-col bg-teal-700"> <!-- sidebar -->
-        <div class="h-20 w-20">a</div>
-        <div class="h-20 w-20">b</div>
-        <div class="h-20 w-20">c</div>
-        <div class="h-20 w-20">d</div>
+      <div class="flex flex-col bg-teal-700 w-40 items-center gap-2 p-2"> <!-- sidebar -->
+        <div class="h-32 w-32 rounded-lg bg-gray-900">a</div>
+        <div class="h-32 w-32 rounded-lg bg-gray-900">b</div>
+        <div class="h-32 w-32 rounded-lg bg-gray-900">c</div>
+        <div class="h-32 w-32 rounded-lg bg-gray-900">d</div>
       </div>
       
       <main class="flex flex-row flex-wrap flex-auto gap-5 justify-center m-10 "> <!-- maincontent -->

@@ -9,9 +9,9 @@ import HelloWorld from './components/HelloWorld.vue'
 
     <header class="w-full">
 
-      <div class="flex flex-row justify-end bg-gray-800"><!-- top line -->
-        <div>Log in</div>
-        <div>Sign up</div>
+      <div class="flex flex-row justify-end bg-gray-800 h-10 text-teal-700 pr-11"><!-- top line -->
+        <div class="p-1 self-center">Log in</div>
+        <div class="p-1 self-center">Sign up</div>
       </div>
 
       <div class="flex flex-row justify-around bg-gray-700 h-20">

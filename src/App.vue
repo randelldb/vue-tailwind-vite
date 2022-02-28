@@ -9,23 +9,24 @@ import HelloWorld from './components/HelloWorld.vue'
 
     <header class="w-full">
 
-      <div class="flex flex-row justify-end bg-gray-800 h-10 text-teal-700 pr-11"><!-- top line -->
+      <div class="flex flex-row justify-end bg-gray-700 h-10 text-teal-700 pr-11"><!-- top line -->
         <div class="p-1 self-center">Log in</div>
+        <div class="self-center">||</div>
         <div class="p-1 self-center">Sign up</div>
       </div>
 
-      <div class="flex flex-row justify-around bg-gray-700 h-20">
+      <div class="flex flex-row justify-around bg-gray-800 h-20">
 
         <img src="grab-logo.png" alt="logo" class="object-cover h-3/4 self-center">
 
-        <nav class=" bg-slate-300 self-center">
-          <ul class="bg-yellow-200 flex flex-row">
-            <li class="p-2">Home</li>
-            <li class="p-2">About</li>
-            <li class="p-2">About</li>
-            <li class="p-2">Products</li>
-            <li class="p-2">Career</li>
-            <li class="p-2">Contact</li>
+        <nav class="self-center font-display text-gray-200 text-lg">
+          <ul class="flex flex-row">
+            <li class="p-2"><span class="text-teal-700">H</span>ome</li>
+            <li class="p-2"><span class="text-teal-700">A</span>bout</li>
+            <li class="p-2"><span class="text-teal-700">A</span>bout</li>
+            <li class="p-2"><span class="text-teal-700">P</span>roducts</li>
+            <li class="p-2"><span class="text-teal-700">C</span>areer</li>
+            <li class="p-2"><span class="text-teal-700">C</span>ontact</li>
           </ul>
         </nav>
       </div>

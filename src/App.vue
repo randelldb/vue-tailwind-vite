@@ -36,10 +36,48 @@ import HelloWorld from './components/HelloWorld.vue'
     <div class="flex flex-row flex-auto">
 
       <div class="flex flex-col bg-teal-700 w-40 items-center gap-2 p-2"> <!-- sidebar -->
-        <div class="h-32 w-32 rounded-lg bg-gray-900">a</div>
-        <div class="h-32 w-32 rounded-lg bg-gray-900">b</div>
-        <div class="h-32 w-32 rounded-lg bg-gray-900">c</div>
-        <div class="h-32 w-32 rounded-lg bg-gray-900">d</div>
+
+        <div class="
+        flex justify-center items-center
+        h-32 w-32 
+        bg-gray-900 rounded-md
+        text-teal-700
+        hover:rounded-3xl hover:text-gray-100 hover:bg-gray-800
+        transition-all duration-300 ease-in-out ">
+
+          <fa class="text-6xl" icon="glasses" />
+
+        </div>
+
+        <div class="
+        flex justify-center items-center
+        h-32 w-32 
+        bg-gray-900 rounded-md
+        text-teal-700
+        hover:rounded-3xl hover:text-gray-100 hover:bg-gray-800
+        transition-all duration-300 ease-in-out ">
+          <fa class="text-6xl" icon="coffee" />
+        </div>
+
+        <div class="
+        flex justify-center items-center
+        h-32 w-32 
+        bg-gray-900 rounded-md
+        text-teal-700
+        hover:rounded-3xl hover:text-gray-100 hover:bg-gray-800
+        transition-all duration-300 ease-in-out ">
+          <fa class="text-6xl" icon="beer" />
+        </div>
+
+        <div class="
+        flex justify-center items-center
+        h-32 w-32 
+        bg-gray-900 rounded-md
+        text-teal-700
+        hover:rounded-3xl hover:text-gray-100 hover:bg-gray-800
+        transition-all duration-300 ease-in-out ">
+          <fa class="text-6xl" icon="pencil" />
+        </div>
       </div>
       
       <main class="flex flex-row flex-wrap flex-auto gap-5 justify-center m-10 "> <!-- maincontent -->
@@ -64,6 +102,7 @@ import HelloWorld from './components/HelloWorld.vue'
     </div>
 
   </div>
+
 
 </template>
 
